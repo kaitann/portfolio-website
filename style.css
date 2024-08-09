@@ -221,7 +221,32 @@ section {
 
 .icon {
     cursor: pointer;
-    height: 2rem;
+    height: 2.5rem;
+}
+
+.expicon {
+    cursor:default;
+    height: 2.5rem;
+}
+
+.eduicon {
+    cursor: default;
+    height: 2.5rem;
+}
+
+.checkicon {
+    cursor: default;
+    height: 2.5rem;
+}
+
+.linkicon {
+    cursor: pointer;
+    height: 4rem;
+}
+
+.giticon {
+    cursor: pointer;
+    height: 3.25rem;
 }
 
 /*buttons*/
@@ -315,6 +340,7 @@ section {
     border-color: #84a98c;
     color:#2f3e46;
     text-align: center;
+    line-height: 25px;
 }
 
 .section-container {
@@ -406,20 +432,21 @@ article.icon {
 
 .contact-info-upper-container {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: white;
     background: white;
-    margin: 2rem auto;
-    padding: 0.5rem;
+    width: 300px;
+    margin: 0.5rem auto;
+    padding: 1.5rem;
 }
 
 .content-info-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
     margin: 1rem;
 }
 
